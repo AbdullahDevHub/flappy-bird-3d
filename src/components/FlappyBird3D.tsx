@@ -417,7 +417,7 @@ const FlappyBird3D: React.FC = () => {
           {gameState === 'waiting' && (
             <div className="absolute inset-0 bg-black/60 flex items-center justify-center backdrop-blur-sm">
               <div className="text-center text-white p-6 lg:p-8 bg-gradient-to-br from-blue-600/90 to-purple-600/90 rounded-xl border border-white/30 mx-4 max-w-sm shadow-2xl">
-                <div className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-4">🐦 Ready to Soar?</div>
+                <div className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-4">🐦 Ready to Start?</div>
                 <div className="text-base lg:text-lg xl:text-xl mb-2">Click or press SPACE to fly!</div>
                 <div className="text-sm lg:text-base opacity-75">Navigate through the 3D pipes</div>
               </div>
